@@ -1,0 +1,24 @@
+<!doctype html>
+<html id="html" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+	<title>Angular Live Reload</title>
+</head>
+<body>
+    <app layout="row"></app>
+
+	<script src="lib/systemjs/system.src.js"></script>
+	<script src="config.js"></script>
+	<script src="/fx/ModuleLoader.js"></script>
+	<script src="system.cachebuster.js"></script>
+
+	<script>
+		window.PREVENT_IMPORT_REMOVE = function(x) {
+		}
+	</script>
+
+	<script>
+		System.import("main");
+	</script>
+</body>
+</html>

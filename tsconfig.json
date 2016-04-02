@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "target": "ES5"
+    },
+    "files": [
+        "main.ts",
+        "components/contactList2.ts",
+        "fx/ModuleLoader.ts"
+    ]
+}

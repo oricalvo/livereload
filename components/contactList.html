@@ -1,0 +1,7 @@
+<ul>
+    <li ng-repeat="contact in ctrl.contacts" ng-click="ctrl.clicked(contact)">
+        <span>{{contact.name}}</span>
+        <button>{{ctrl.getButtonText(contact)}}</button>
+        <span>4</span>
+    </li>
+</ul>

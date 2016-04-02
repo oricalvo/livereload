@@ -1,0 +1,24 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "node/node.d.ts": {
+      "commit": "24635d778d7ff1f7665f04239563b2ef2684ee1c"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "24635d778d7ff1f7665f04239563b2ef2684ee1c"
+    },
+    "angularjs/angular.d.ts": {
+      "commit": "24635d778d7ff1f7665f04239563b2ef2684ee1c"
+    },
+    "moment/moment.d.ts": {
+      "commit": "02b4b5c8e0f56cc576a3480dea362173ba7e277b"
+    },
+    "moment/moment-node.d.ts": {
+      "commit": "02b4b5c8e0f56cc576a3480dea362173ba7e277b"
+    }
+  }
+}
